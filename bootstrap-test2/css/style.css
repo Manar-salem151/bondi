@@ -1,0 +1,136 @@
+body {
+    font-family: 'Roboto';
+}
+
+:root {
+    --dark-color: #19283F;
+    --btn: #FF3150;
+    --heading: #F9C63E;
+    --icon: #33D1CC;
+}
+
+.navbar,.start,footer {
+    background-color: var(--dark-color) !important;
+}
+
+.nav-link:hover,
+.nav-link.active:hover,
+.nav-link.active {
+    color: var(--icon) !important;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.search {
+    border-left: 1px solid white;
+}
+
+svg {
+    color: var(--icon);
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+nav .btn,
+header .btn,
+.blogg .btn,
+.team .btn,
+.start .btn,
+ .read .btn {
+    background-color: var(--btn);
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+nav .btn:hover,
+header .btn:hover,
+.blog li a:hover,
+.blogg .btn:hover,
+ .team .btn:hover,
+ .start .btn:hover,
+  .read .btn:hover {
+    color: var(--heading) !important;
+    background-color: var(--btn) !important;
+}
+
+header {
+    background-color: var(--dark-color);
+    min-height: calc(100vh - 72px);
+    /* padding-top:15%; */
+}
+
+.blogg,.meet {
+    background-color: rgba(8, 233, 226, 0.097);
+}
+
+.blogg .card:hover {
+    background-color: #33D1CC;
+}
+
+ .blogg .card img:hover {
+    opacity: .5;
+}
+
+hr {
+    width: 100px;
+    border: none;
+    height: 5px;
+    background-color: #08e9e1;
+    margin: 10px auto;
+}
+
+h4 {
+    color: var(--heading);
+}
+
+.one, .two, .three {
+    position: relative;
+}
+
+.one::before {
+    content: "1";
+    position: absolute;
+    bottom: 40px;
+    left: 40%;
+    font-size: 10rem;
+    color: #759fde;
+    opacity: .2;
+}
+
+.two::before {
+    content: "2";
+    position: absolute;
+    bottom: 40px;
+    left: 40%;
+    font-size: 10rem;
+    color: #759fde;
+    opacity: .2;
+}
+
+.three::before {
+    content: "3";
+    position: absolute;
+    bottom: 40px;
+    left: 40%;
+    font-size: 10rem;
+    color: #759fde;
+    opacity: .2;
+}
+.card-title{
+    background-color: var(--icon);
+}
+.contact{
+    background-color: var(--heading);
+}
+.contact .btn{
+    background-color:var(--dark-color);
+    color: #F9C63E;
+}
